@@ -56,7 +56,7 @@ export const Project = (): JSX.Element => {
 
             <ProjectStack>
               <Text type="body2" color="grey2">
-                Primary Language:
+                Linguagem Primária:
               </Text>
               {repository.language ? (
                 <ProjectStackTech>
@@ -67,7 +67,7 @@ export const Project = (): JSX.Element => {
               ) : (
                 <ProjectStackTech>
                   <Text color="grey2" type="body2">
-                    Primary language not identified
+                    Linguagem primária não identificada
                   </Text>
                 </ProjectStackTech>
               )}
